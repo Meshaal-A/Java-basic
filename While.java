@@ -1,4 +1,4 @@
-public class While {
+public class While { //Repeats a block of code while a condition is true.
     public static void main(String[] args) {
         System.out.println(1);
         System.out.println(2);
@@ -9,5 +9,6 @@ public class While {
         int num=1;
         while(num<=5);
         System.out.println(num);
+        num++;
     }
 }
